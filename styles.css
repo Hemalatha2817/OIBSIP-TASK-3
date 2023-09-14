@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://png.pngtree.com/background/20220724/original/pngtree-torn-paper-notes-notepad-sticky-notes-picture-image_1739031.jpg"); 
+  }
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    border-color: black;
+    border-radius: 10px;
+  }
+  h1 {
+    text-align: center; 
+    font-family:'Times New Roman', Times, serif ;
+    font-style: inherit;
+    color: rgb(8, 8, 150);
+  }
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .task-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .task-item.completed span {
+    text-decoration: line-through;
+    color: #22bf0a;
+  }
+  .task-item .delete-button {
+    margin-left: auto;
+    cursor: pointer;
+    color: #be0e0e;
+  }
+  h2{
+    font-style: italic;
+    color: rgb(120, 21, 21);
+    font-family: "chiller";
+  }
